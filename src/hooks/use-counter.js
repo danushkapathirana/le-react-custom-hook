@@ -15,7 +15,7 @@ const useCounter = (forward = true) => {
 
         return () => clearInterval(interval)
 
-    }, [])
+    }, [forward])
 
     return counter
 }
